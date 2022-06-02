@@ -61,16 +61,6 @@ private lateinit var binding:ActivityMainBinding
 
 
 
-//        val connectonManager:ConnectivityManager=this.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-//        val activeNetwork:NetworkInfo?= connectonManager.activeNetworkInfo
-//        val isConnected:Boolean = activeNetwork?.isConnectedOrConnecting==true
-//
-//        if (isConnected){
-//            Toast.makeText(this, "Connected", Toast.LENGTH_SHORT).show()
-//        }
-//            else{
-//            Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show()
-//            }
 
 
 
@@ -201,7 +191,6 @@ private lateinit var binding:ActivityMainBinding
     fun createMember(view: View) {
         val intent = Intent(this,AddNewMember::class.java)
         startActivity(intent)
-        finish()
     }
 
     fun viewOrUpdate(jsonObject: JSONObject) {
@@ -238,72 +227,6 @@ private lateinit var binding:ActivityMainBinding
 
     }
 
-
-
-//    private fun fetchMember() {
-
-
-
-
-
-
-
-
-
-
-
-//
-//        val queue = Volley.newRequestQueue(this)
-//        val url = "http://10.0.2.2:5000/api/v1/members/sauravjadhav"
-////        val url = "https://www.boredapi.com/api/activity"
-//
-//        val jsonObjectRequest =JsonArrayRequest(
-//            Request.Method.GET, url,null,
-//            { response ->
-//
-//                for (i in 0 until response.length()) {
-//                    val item = response.getJSONObject(i)
-//                    val editLinearLayout = findViewById<LinearLayout>(R.id.editTextLinearLayout)
-//
-//
-//                    val editText = TextView(this)
-//                    val params = LinearLayout.LayoutParams(
-//                        LinearLayout.LayoutParams.WRAP_CONTENT,
-//                        LinearLayout.LayoutParams.WRAP_CONTENT
-//                    )
-//                    params.setMargins(0, 25, 0, 0)
-//                    editText.text = "${item}"
-//                    editText.layoutParams = LinearLayout.LayoutParams(
-//                        ViewGroup.LayoutParams.MATCH_PARENT,
-//                        ViewGroup.LayoutParams.WRAP_CONTENT)
-//                    editText.setPadding(20, 5, 20, 20)
-//                    editText.layoutParams = params
-//                    editText.setBackgroundDrawable(getResources().getDrawable(R.drawable.text_view_border))
-//                    editLinearLayout?.addView(editText)
-////                    Log.d("this is object in array", item.toString())
-//                }
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//                Log.d("it is working", response.toString())
-//            },
-//            {
-//                Log.d("it is not working",url)
-//
-//            })
-//
-//// Add the request to the RequestQueue.
-//        queue.add(jsonObjectRequest)
-// }
 
 
 
