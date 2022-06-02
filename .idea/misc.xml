@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/drawable/ic_launcher_background.xml" value="0.191" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/drawable/text_view_border.xml" value="0.231" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/activity_add_new_member.xml" value="0.264" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/activity_home1.xml" value="0.23980099502487562" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/activity_main.xml" value="0.19636363636363635" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/activity_view_or_update.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/activity_view_update.xml" value="0.2" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/faltu.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/gaura/AndroidStudioProjects/FoodKatta/app/src/main/res/layout/row_layout.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
